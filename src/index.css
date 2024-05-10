@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f5f5;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/000/834/558/small/3d-cube-golden-box-abstract-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.instagram-icon {
+  filter: brightness(0) invert(1);
+}
